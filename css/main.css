@@ -1,5 +1,13 @@
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Raleway", sans-serif;
   box-sizing: border-box;
+  /* background-color: #; */
+  /* color: #; */
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
