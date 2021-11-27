@@ -20,7 +20,7 @@ body {
 }
 
 main img {
-  width: 10%;
+  width: 60%;
 }
 
 nav ul {
@@ -95,3 +95,39 @@ li a {
 }
 
 /* ------ end of styling banner ------- */
+
+
+.cards ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "card1 card2 card3";
+  gap: 1rem;
+}
+
+ol li {
+  list-style: none;
+}
+
+.card1 {
+  grid-row: 1;
+  grid-column: 1;
+  align-self: center;
+}
+
+.card2 {
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+}
+
+.card3 {
+  grid-row: 1;
+  grid-column: 3;
+  align-self: center;
+}
+
+
+
+/* ------ end of styling cards ------- */
