@@ -44,13 +44,21 @@ li a {
 .banner {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 2rem 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
   "image"
-  "h1"
-  "p"
-  "a";
+  "text"
+  "button";
   gap: 1rem;
+}
+
+.text-banner {
+  display: content;
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+  align-self: end;
+  padding-left: 2rem;
 }
 
 .banner img {
@@ -61,29 +69,29 @@ li a {
   grid-row: 1 / -1;
 }
 
-h1 {
+.text-banner h1 {
+  font-size: 3.5rem;
+
+}
+/*
   grid-column: 1;
   grid-row: 2;
   z-index: 1;
   align-self: end;
-  font-size: 3rem;
-  padding-left: 2rem;
-}
 
-p {
-  grid-column: 1;
-  grid-row: 3;
-  z-index: 1;
-  align-self: center;
-  /* padding-bottom: 1rem; */
-  padding-left: 2rem;
+} */
+
+.text-banner p {
   font-size: 1.5rem;
+  color: #fff;
   max-width: 53rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
 }
 
 .banner a {
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 3;
   z-index: 1;
   align-self: end;
   font-size: 30px;
