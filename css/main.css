@@ -22,3 +22,23 @@ body {
 main img {
   width: 10%;
 }
+
+nav ul {
+  padding: .8rem 0 .8rem;
+  list-style: none;
+  display: flex;
+  background-color: black;
+}
+
+li a {
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* ------ end of styling Navigation ------- */
+
+.banner {
+  background-image: auto;
+}
