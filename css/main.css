@@ -28,11 +28,13 @@ nav ul {
   list-style: none;
   display: flex;
   background-color: black;
+  min-width: 30em;
+  flex-wrap: nowrap;
 }
 
 li a {
   color: #fff;
-  padding: 1rem;
+  padding-left: 2rem;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -42,8 +44,9 @@ li a {
 .banner {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2rem 1fr;
   grid-template-areas:
+  "image"
   "h1"
   "p"
   "a";
@@ -52,6 +55,8 @@ li a {
 
 .banner img {
   width: 100%;
+  opacity: 0.8;
+  min-width: 30em;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
 }
@@ -61,19 +66,28 @@ h1 {
   grid-row: 2;
   z-index: 1;
   align-self: end;
+  font-size: 3rem;
+  padding-left: 2rem;
 }
 
 p {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 3;
   z-index: 1;
-  align-self: end;
+  align-self: center;
+  /* padding-bottom: 1rem; */
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  max-width: 53rem;
 }
 
 .banner a {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 4;
   z-index: 1;
   align-self: end;
   font-size: 30px;
+  padding-left: 2rem;
 }
+
+/* ------ end of styling banner ------- */
