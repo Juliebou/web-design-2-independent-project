@@ -40,5 +40,40 @@ li a {
 /* ------ end of styling Navigation ------- */
 
 .banner {
-  background-image: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "h1"
+  "p"
+  "a";
+  gap: 1rem;
+}
+
+.banner img {
+  width: 100%;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+h1 {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+  align-self: end;
+}
+
+p {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+  align-self: end;
+}
+
+.banner a {
+  grid-column: 1;
+  grid-row: 3;
+  z-index: 1;
+  align-self: end;
+  font-size: 30px;
 }
