@@ -23,6 +23,186 @@ main img {
  width: 60%;
 }
 
+@media only screen and (min-width: 25em) {
+
+  nav ul {
+    padding: .8rem 0 .8rem;
+    list-style: none;
+    display: flex;
+    background-color: black;
+    min-width: 30em;
+    flex-wrap: nowrap;
+  }
+
+  li a {
+    color: #fff;
+    padding-left: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* ------ end of styling Navigation ------- */
+
+  .banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "text"
+    "button";
+    gap: 1rem;
+  }
+
+  .text-banner {
+    display: content;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    align-self: center;
+    padding-left: 2rem;
+  }
+
+  .banner img {
+    width: 100%;
+    opacity: 0.7;
+    grid-column: 1 / -1;
+    grid-row: 1 / -2;
+  }
+
+  .text-banner h1 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .text-banner p {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    padding: .8rem;
+  }
+
+  .button {
+    margin: auto;
+    z-index: 1;
+    align-self: start;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .button a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 2rem;
+    color: #fff;
+    background-color: #580F1F;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+
+  /* ------ end of styling banner ------- */
+
+
+  .cards ol {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "card1"
+    "card2"
+    "card3";
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  ol li {
+    list-style: none;
+    background-color: rgba(166, 178, 169, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .cards h2 {
+    font-weight: bold;
+    color: #580F1F;
+    font-size: 2rem;
+  }
+
+  .cards p {
+    font-size: 1.3rem;
+  }
+
+  .card1 {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    flex-grow: 1;
+    align-self: stretch;
+    flex-basis: 0;
+  }
+
+  .card2 {
+    grid-row: 1;
+    grid-column: 2;
+    align-self: center;
+    flex-grow: 1;
+      flex-basis: 0;
+  }
+
+  .card3 {
+    grid-row: 1;
+    grid-column: 3;
+    align-self: center;
+    flex-grow: 1;
+    align-self: stretch;
+      flex-basis: 0;
+  }
+
+  .card1 img {
+    width: 70%;
+    }
+
+  /* ------ end of styling cards ------- */
+
+  .contact {
+    padding-left: 2rem;
+  }
+
+  .contact p:first-child {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+  }
+
+  .contact p {
+    font-weight: bold;
+  }
+
+  /* ------ end of styling contact section ------- */
+
+
+  footer {
+    font-size: small;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
 nav ul {
   padding: .8rem 0 .8rem;
   list-style: none;
@@ -183,4 +363,23 @@ ol li {
 
 .contact p {
   font-weight: bold;
+}
+
+/* ------ end of styling contact section ------- */
+
+
+footer {
+  font-size: small;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+/* ------ end of styling footer ------- */
+
 }
