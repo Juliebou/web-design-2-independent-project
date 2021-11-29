@@ -119,6 +119,17 @@ ol li {
   align-items: center;
 }
 
+.cards h2 {
+  font-weight: bold;
+  color: #580F1F;
+  font-size: 2rem;
+}
+
+.cards p {
+  font-size: 1.3rem;
+}
+
+
 .card1 {
   grid-row: 1;
   grid-column: 1;
