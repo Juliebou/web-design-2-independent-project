@@ -169,3 +169,18 @@ ol li {
   }
 
 /* ------ end of styling cards ------- */
+
+.contact {
+  padding-left: 2rem;
+}
+
+.contact p:first-child {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-weight: bold;
+}
