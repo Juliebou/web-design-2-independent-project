@@ -98,8 +98,21 @@ main img {
     padding: 2rem;
     color: #fff;
     background-color: #580F1F;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+  }
+
+  .button a:hover {
+    font-weight: bold;
+    color: #580F1F;
+    background-color:  #fff;
+    border-style: solid;
+    border-color: #580F1F
+    border-width: 5px;
+  }
+
+  .button a:focus {
+    font-weight: bold;
   }
 
   /* ------ end of styling banner ------- */
