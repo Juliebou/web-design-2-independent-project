@@ -147,24 +147,28 @@ main img {
   }
 
   .card2 {
-    grid-row: 1;
-    grid-column: 2;
+    grid-row: 2;
+    grid-column: 1;
     align-self: center;
     flex-grow: 1;
       flex-basis: 0;
   }
 
   .card3 {
-    grid-row: 1;
-    grid-column: 3;
+    grid-row: 3;
+    grid-column: 1;
     align-self: center;
     flex-grow: 1;
     align-self: stretch;
       flex-basis: 0;
   }
 
-  .card1 img {
-    width: 70%;
+  .cards img {
+    width: 50%;
+    }
+
+    a h2 {
+      margin-bottom: 0;
     }
 
   /* ------ end of styling cards ------- */
@@ -201,32 +205,13 @@ main img {
 
 }
 
-@media only screen and (min-width: 38em) {
-
-nav ul {
-  padding: .8rem 0 .8rem;
-  list-style: none;
-  display: flex;
-  background-color: black;
-  min-width: 30em;
-  flex-wrap: nowrap;
-}
-
-li a {
-  color: #fff;
-  padding-left: 2rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-/* ------ end of styling Navigation ------- */
+@media only screen and (min-width: 42em) {
 
 .banner {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1rem 1fr 1fr;
+  grid-template-rows: 30rem 1fr;
   grid-template-areas:
-  "image"
   "text"
   "button";
   gap: 1rem;
@@ -235,16 +220,16 @@ li a {
 .text-banner {
   display: content;
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 1;
   z-index: 1;
-  align-self: center;
+  align-self: end;
   padding-left: 2rem;
 }
 
 .banner img {
   width: 100%;
   opacity: 0.7;
-  min-width: 30em;
+  min-width: 700px;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
 }
@@ -258,31 +243,16 @@ li a {
 
 .text-banner p {
   font-size: 1.5rem;
-  color: #fff;
   max-width: 53rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 1rem;
-  padding: 1rem;
-  margin-top: 0;
 }
 
 .button {
   margin: auto;
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 2;
   z-index: 1;
   align-self: start;
   align-items: center;
-}
-
-.button a {
-  font-size: 30px;
-  text-decoration: none;
-  padding: 2rem;
-  color: #fff;
-  background-color: #580F1F;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
 }
 
 /* ------ end of styling banner ------- */
