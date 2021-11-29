@@ -303,3 +303,16 @@ ol li {
   }
 
 }
+
+@media only screen and (min-width: 70em) {
+
+  .banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40em 20em;
+    gap: 1rem;
+  }
+
+  /* ------ end of styling banner ------- */
+
+}
