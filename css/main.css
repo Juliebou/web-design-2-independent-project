@@ -86,14 +86,23 @@ li a {
   margin-top: 0;
 }
 
-.banner a {
+.button {
+  margin: auto;
   grid-column: 1;
   grid-row: 3;
   z-index: 1;
   align-self: start;
+  align-items: center;
+}
+
+.button a {
   font-size: 30px;
   text-decoration: none;
-  padding-left: 3rem;
+  padding: 2rem;
+  color: #fff;
+  background-color: #580F1F;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 /* ------ end of styling banner ------- */
@@ -129,13 +138,13 @@ ol li {
   font-size: 1.3rem;
 }
 
-
 .card1 {
   grid-row: 1;
   grid-column: 1;
   align-self: center;
   flex-grow: 1;
   align-self: stretch;
+  flex-basis: 0;
 }
 
 .card2 {
@@ -143,6 +152,7 @@ ol li {
   grid-column: 2;
   align-self: center;
   flex-grow: 1;
+    flex-basis: 0;
 }
 
 .card3 {
@@ -151,8 +161,11 @@ ol li {
   align-self: center;
   flex-grow: 1;
   align-self: stretch;
+    flex-basis: 0;
 }
 
-
+.card1 img {
+  width: 70%;
+  }
 
 /* ------ end of styling cards ------- */
