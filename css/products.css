@@ -1,12 +1,33 @@
 
 
 .banner2 {
-  background-image: url(../images/lots-of-apples-banner.jpg);
+  background-image: url("../images/lots-of-apples-banner.jpg");
   padding: .75rem 0;
 }
 
 h1 {
-  color: #fff;
   padding-left: 2rem;
- border-color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.apple {
+  background-image: url("../images/lots-of-apples-banner.jpg");
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 20em 1fr;
+  grid-template-rows: 20em 1fr;
+  grid-template-areas:
+  "h2" "card top"
+  "button" "card bottom";
+  gap: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5rem;
 }
