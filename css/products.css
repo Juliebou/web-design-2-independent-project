@@ -12,25 +12,26 @@ h1 {
 
 .apple {
   background-image: url("../images/lots-of-apples-banner.jpg");
-  opacity: 0.5;
+  /* opacity: 0.5; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
-  grid-template-columns: 20em 1fr 1fr;
+  grid-template-columns: 15em 10em 1fr;
   grid-template-rows: 20em 1fr 1fr;
   grid-template-areas:
   "h2" "card top"
   "button" "card bottom"
   "button" "button";
   gap: 1rem;
+  padding: 0 1rem;
 }
 
 main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 5rem;
+  margin: 3rem;
 }
 
 .apple h2, p {
@@ -41,16 +42,23 @@ main {
 .activities {
   grid-column: 1;
   grid-row: 2;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .applepicking {
   grid-column: 2/4;
   grid-row: 1/2;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: -210px;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top-left-radius: 130px;
+  border-top-right-radius: 130px;
 }
 
  .button {
    grid-column: 2/3;
-   grid-row: 3;
+   grid-row: 4;
   padding-top: 6rem;
   padding-left: 6rem;
    align-self: flex-end;
