@@ -1,0 +1,12 @@
+
+
+.banner2 {
+  background-image: url(../images/lots-of-apples-banner.jpg);
+  padding: .75rem 0;
+}
+
+h1 {
+  color: #fff;
+  padding-left: 2rem;
+ border-color: black;
+}
