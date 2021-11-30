@@ -17,11 +17,12 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
-  grid-template-columns: 20em 1fr;
-  grid-template-rows: 20em 1fr;
+  grid-template-columns: 20em 1fr 1fr;
+  grid-template-rows: 20em 1fr 1fr;
   grid-template-areas:
   "h2" "card top"
-  "button" "card bottom";
+  "button" "card bottom"
+  "button" "button";
   gap: 1rem;
 }
 
@@ -31,3 +32,27 @@ main {
   gap: 2rem;
   margin: 5rem;
 }
+
+.apple h2, p {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.activities {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.applepicking {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+ .button {
+   grid-column: 2/3;
+   grid-row: 3;
+  padding-top: 6rem;
+  padding-left: 6rem;
+   align-self: flex-end;
+   align-items: center;
+ }
