@@ -69,25 +69,28 @@ main {
   color: #fff;
   font-size: 3.5rem;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.2;
+  padding-left: 1rem;
 }
 
 .activities {
   padding: 0;
+  padding-bottom: 5rem;
 }
 .activities p {
-  text-align: center;
+  padding-left: 1.6rem;
   color: #580f1f;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1;
 }
 
-activities h3{
-  text-align: center;
+.activities h3 {
+  padding-left: 1.6rem;
 }
 
 .activities li {
-  padding-left: 1rem;
+  padding-left: 1.6rem;
   list-style: none;
+  font-size: 1.35rem;
 }
