@@ -1,14 +1,116 @@
 
 
+h1 {
+  padding-left: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .banner2 {
   background-image: url("../images/lots-of-apples-banner.jpg");
   padding: .75rem 0;
 }
 
-h1 {
-  padding-left: 2rem;
-  background-color: rgba(255, 255, 255, 0.5);
+@media only screen and (min-width: 25em) {
+
+  .apple {
+    background-image: url("../images/lots-of-apples-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 1rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .activities {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .apple h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-left: 1.6rem;
+  }
+
+  .activities {
+    padding: .2rem 0 2rem;
+  }
+
+  .activities p {
+    padding-left: 1.6rem;
+    color: #580f1f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .activities h3 {
+    padding-left: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .activities li {
+    padding-left: 1.6rem;
+    list-style: none;
+    font-size: 1.35rem;
+  }
+
+   /* -------- end of ul card .activities-------- */
+
+   .applepicking {
+     grid-column: 2/4;
+     grid-row: 1/3;
+     background-color: rgba(255, 255, 255, 0.5);
+     /* margin-bottom: -210px; */
+     padding: 1rem;
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+     border-top-left-radius: 130px;
+     border-top-right-radius: 130px;
+   }
+
+  .applepicking h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .mcintosh {
+    padding-left: 2rem;
+  }
+
+  .mcintosh dt {
+    color: #580f1f;
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
+
+  .mcintosh dd {
+    font-size: .85rem;
+  }
+
+  .mcintosh dd:first-child {
+    font-weight: bold;
+  }
+
+  /* -------- end of dt dd card-------- */
+  .button {
+    grid-column: 2/3;
+    grid-row: 4;
+    padding-top: 4rem;
+    align-self: flex-end;
+    text-align: center;
+  }
+
 }
+
+
+@media only screen and (min-width: 42em) {
 
 .apple {
   background-image: url("../images/lots-of-apples-banner.jpg");
@@ -84,12 +186,14 @@ main {
    /* margin-bottom: -210px; */
    padding: 1rem;
    margin-top: 2rem;
+   margin-bottom: 1rem;
    border-top-left-radius: 130px;
    border-top-right-radius: 130px;
  }
 
 .applepicking h3 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .mcintosh {
@@ -117,4 +221,6 @@ main {
   padding-top: 4rem;
   align-self: flex-end;
   text-align: center;
+}
+
 }
