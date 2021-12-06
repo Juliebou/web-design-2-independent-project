@@ -180,6 +180,7 @@ main img {
     grid-column: 1;
     align-self: center;
     flex-grow: 1;
+    align-self: stretch;
       flex-basis: 0;
   }
 
