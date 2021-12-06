@@ -105,6 +105,69 @@ h1 {
     text-align: center;
   }
 
+/* END OF APPLE CARD-Small screen */
+
+.pumpkin {
+  background-image: url("../images/lots-of-pumpkins.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 1rem;
+}
+
+.pumpkin h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-left: 1.6rem;
+}
+
+.pumpkinpatch li {
+  padding-left: 1.6rem;
+  /* list-style: none; */
+  font-size: .85rem;
+}
+
+ /* -------- end of ul card .activities-------- */
+
+ .pumpkinpatch {
+   background-color: rgba(255, 255, 255, 0.5);
+   padding: 1rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   padding-bottom: 3rem;
+   border-top-left-radius: 130px;
+   border-top-right-radius: 130px;
+ }
+
+.pumpkinpatch h3 {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 10rem;
+  line-height: 1.2;
+
+}
+
+
+.mcintosh dd {
+  font-size: .85rem;
+}
+
+.mcintosh dd:first-child {
+  font-weight: bold;
+} */
+
+/* -------- end of pumpkin card-------- */
+.button {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* END OF PUMPKIN CARD */
+
+
 }
 
 @media only screen and (min-width: 46em) {
