@@ -167,6 +167,64 @@ h1 {
 
 /* END OF PUMPKIN CARD - small screen */
 
+.tree {
+  background-image: url("../images/lots-of-branch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 1rem;
+}
+
+.tree h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-left: 1.6rem;
+}
+
+.christmastree li {
+  padding-left: 1.6rem;
+  /* list-style: none; */
+  font-size: .85rem;
+}
+
+ /* -------- end of ul card .activities-------- */
+
+ .christmastree {
+   background-color: rgba(255, 255, 255, 0.5);
+   padding: 1rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   padding-bottom: 3rem;
+   border-top-left-radius: 130px;
+   border-top-right-radius: 130px;
+ }
+
+.christmastree h3 {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 10rem;
+  line-height: 1.2;
+
+}
+
+.christmastree p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-left: 2rem;
+  max-width: 36rem;
+}
+
+/* -------- end of pumpkin card-------- */
+.button {
+  padding-top: .85rem;
+  text-align: left;
+}
+ /* END OF CHRISTMAS TREE-SMALL SCREEN */
+
 }
 
 @media only screen and (min-width: 46em) {
@@ -239,7 +297,7 @@ main {
   padding-bottom: 2rem;
 }
 
-/* END OF APPLE-MEDIUM SCREENT */
+/* END OF APPLE-MEDIUM SCREEN */
 
 .pumpkin {
   display: grid;
@@ -295,6 +353,7 @@ main {
    padding: 1rem;
    margin-top: 2rem;
    margin-bottom: 2rem;
+   padding-top: 6rem;
  }
 
 .pumpkinpatch h3 {
@@ -307,6 +366,8 @@ main {
   grid-column: 2/3;
   grid-row: 4;
   padding-bottom: 2rem;
+  padding-top: 5rem;
+  text-align: center;
 }
 
 /* END of PUMPKIN- MEDIUM screen */
@@ -326,5 +387,15 @@ main {
   .mcintosh dd {
     max-width: 45rem;
   }
+
+  .pumpkinpatch {
+    max-width: 55rem;
+  }
+
+ .pumpkinpatch h3 {
+   max-width: 200px;
+   padding-bottom: 1rem;
+ }
+
 
 }
