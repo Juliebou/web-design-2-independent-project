@@ -1,0 +1,40 @@
+h1 {
+  padding-left: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner2 {
+  background-image: url("../images/lots-of-apples-banner.jpg");
+  padding: .75rem 0;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+main p {
+  max-width: 30rem;
+}
+
+}
+
+@media only screen and (min-width: 42em) {
+
+  main p {
+    max-width: 60rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  main p {
+    max-width: 60rem;
+    text-align: center;
+  }
+
+
+}
