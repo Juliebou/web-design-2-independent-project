@@ -41,11 +41,20 @@ main img {
     text-transform: uppercase;
   }
 
+  .logo {
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    z-index: 2;
+    top: 1.25rem;
+    right: 0.5rem;
+  }
+
+
   /* ------ end of styling Navigation ------- */
 
   .banner {
     background-image: url("../images/lots-of-apples-banner.jpg");
-    /* opacity: 0.5; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,6 +215,12 @@ main img {
 
   .contact p {
     font-weight: bold;
+  }
+
+  .logo2 {
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
   }
 
   /* ------ end of styling contact section ------- */
