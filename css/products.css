@@ -18,6 +18,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     padding: 0 1rem;
+    margin-bottom: 2rem;
   }
 
   main {
@@ -81,27 +82,27 @@ h1 {
     line-height: 1.2;
   }
 
-  .mcintosh {
-    padding-left: 2rem;
-  }
+.mcintosh dt {
+  color: #580f1f;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
-  .mcintosh dt {
-    color: #580f1f;
-    font-weight: bold;
-    font-size: 1.35rem;
-  }
+.mcintosh dd {
+  font-size: .85rem;
 
-  .mcintosh dd {
-    font-size: .85rem;
-  }
-
-  .mcintosh dd:first-child {
-    font-weight: bold;
-  }
-
+}
   /* -------- end of dt dd card-------- */
   .button {
+    margin: auto;
     padding-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .button a {
     text-align: center;
   }
 
@@ -150,23 +151,21 @@ h1 {
 
 }
 
-
-.mcintosh dd {
-  font-size: .85rem;
-}
-
-.mcintosh dd:first-child {
+.pumpkinpatch p {
+  font-size: 1.2rem;
   font-weight: bold;
-} */
+  line-height: 1.2;
+  padding-left: 2rem;
+  max-width: 36rem;
+}
 
 /* -------- end of pumpkin card-------- */
 .button {
-  padding-top: 1rem;
-  text-align: center;
+  padding-top: .85rem;
+  text-align: left;
 }
 
-/* END OF PUMPKIN CARD */
-
+/* END OF PUMPKIN CARD - small screen */
 
 }
 
@@ -240,6 +239,77 @@ main {
   padding-bottom: 2rem;
 }
 
+/* END OF APPLE-MEDIUM SCREENT */
+
+.pumpkin {
+  display: grid;
+  grid-template-columns: 15em 10em 1fr;
+  grid-template-rows: 20em 1fr;
+  grid-template-areas:
+  "h2" "card top"
+  "button" "card bottom"
+  "button" "button";
+  gap: 1rem;
+}
+
+main {
+  margin: 2rem;
+}
+
+.pumpkin h2, p {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.activities {
+  grid-column: 1;
+  grid-row: 2 / 3;
+}
+
+.pumpkin h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-left: 1rem;
+}
+
+.activities {
+  padding: 0;
+  padding-bottom: 3rem;
+  margin-bottom:  2rem;
+}
+.activities p {
+  padding-left: 1.6rem;
+  color: #580f1f;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+ /* -------- end of ul card .activities-------- */
+
+ .pumpkinpatch {
+   grid-column: 2/4;
+   grid-row: 1/3;
+   padding: 1rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+ }
+
+.pumpkinpatch h3 {
+  max-width: none;
+}
+
+/* -------- end of dt dd card-------- */
+
+.button {
+  grid-column: 2/3;
+  grid-row: 4;
+  padding-bottom: 2rem;
+}
+
+/* END of PUMPKIN- MEDIUM screen */
 }
 
 @media only screen and (min-width: 60em) {
