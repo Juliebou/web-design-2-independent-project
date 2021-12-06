@@ -27,10 +27,6 @@ h1 {
     margin: 1rem;
   }
 
-  .activities {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
   .apple h2 {
     color: #fff;
     font-size: 1.5rem;
@@ -40,6 +36,7 @@ h1 {
   }
 
   .activities {
+    background-color: rgba(255, 255, 255, 0.5);
     padding: .2rem 0 2rem;
   }
 
@@ -114,6 +111,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
 .pumpkin h2 {
@@ -189,6 +187,30 @@ h1 {
   font-size: .85rem;
 }
 
+.christmas {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: .2rem 0 2rem;
+}
+
+.christmas p {
+  padding-left: 1.6rem;
+  color: #580f1f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.christmas h3 {
+  padding-left: 1.6rem;
+  margin-bottom: 0;
+}
+
+.christmas li {
+  padding-left: 1.6rem;
+  list-style: none;
+  font-size: 1.35rem;
+}
+
  /* -------- end of ul card .activities-------- */
 
  .christmastree {
@@ -221,7 +243,7 @@ h1 {
 /* -------- end of pumpkin card-------- */
 .button {
   padding-top: .85rem;
-  text-align: left;
+  text-align: center;
 }
  /* END OF CHRISTMAS TREE-SMALL SCREEN */
 
