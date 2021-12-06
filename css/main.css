@@ -20,7 +20,7 @@ body {
 }
 
 main img {
- width: 60%;
+  width: 60%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -81,7 +81,7 @@ main img {
   .text-banner h1 {
     color: #fff;
     -webkit-text-stroke-width: .5px;
-      -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
     font-size: 3rem;
     font-weight: bold;
     padding-left: .5rem;
@@ -182,7 +182,7 @@ main img {
     align-self: center;
     flex-grow: 1;
     align-self: stretch;
-      flex-basis: 0;
+    flex-basis: 0;
   }
 
   .card3 {
@@ -191,16 +191,16 @@ main img {
     align-self: center;
     flex-grow: 1;
     align-self: stretch;
-      flex-basis: 0;
+    flex-basis: 0;
   }
 
   .cards img {
     width: 50%;
-    }
+  }
 
-    a h2 {
-      margin-bottom: 0;
-    }
+  a h2 {
+    margin-bottom: 0;
+  }
 
   /* ------ end of styling cards ------- */
 
@@ -244,66 +244,66 @@ main img {
 
 @media only screen and (min-width: 42em) {
 
-.banner {
-padding-top: 5rem;
-}
+  .banner {
+    padding-top: 5rem;
+  }
 
-.text-banner h1 {
-  font-size: 3.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-bottom: 0;
-}
+  .text-banner h1 {
+    font-size: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
 
-.text-banner p {
-  /* font-size: 1.5rem; */
-  max-width: 42rem;
-}
+  .text-banner p {
+    /* font-size: 1.5rem; */
+    max-width: 42rem;
+  }
 
-/* ------ end of styling banner ------- */
+  /* ------ end of styling banner ------- */
 
-.cards ol {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-  "card1 card2 card3";
-  gap: 1rem;
-  padding: 2rem;
-}
+  .cards ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "card1 card2 card3";
+    gap: 1rem;
+    padding: 2rem;
+  }
 
-ol li {
-  flex-direction: column;
-  align-content: space-between;
-  justify-content: flex-start;
-  align-items: center;
-}
+  ol li {
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-.cards h2 {
-  font-size: 2rem;
-}
+  .cards h2 {
+    font-size: 2rem;
+  }
 
-.cards p {
-  font-size: 1.3rem;
-}
+  .cards p {
+    font-size: 1.3rem;
+  }
 
-.card1 {
-  grid-row: 1;
-  grid-column: 1;
-}
+  .card1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
 
-.card2 {
-  grid-row: 1;
-  grid-column: 2;
-}
+  .card2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
 
-.card3 {
-  grid-row: 1;
-  grid-column: 3;
-}
+  .card3 {
+    grid-row: 1;
+    grid-column: 3;
+  }
 
-.card1 img {
-  width: 70%;
+  .card1 img {
+    width: 70%;
   }
 
 }
@@ -311,19 +311,19 @@ ol li {
 @media only screen and (min-width: 70em) {
 
   .text-banner {
-     margin: auto;
-     align-self: auto;
-     justify-content: center;
-     padding: 0;
+    margin: auto;
+    align-self: auto;
+    justify-content: center;
+    padding: 0;
   }
 
-.text-banner h1, p {
-  text-align: center;
-}
+  .text-banner h1, p {
+    text-align: center;
+  }
 
-.contact p {
-  text-align: left;
-}
+  .contact p {
+    text-align: left;
+  }
   /* ------ end of styling banner ------- */
 
 }

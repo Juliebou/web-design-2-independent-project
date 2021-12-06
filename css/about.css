@@ -16,9 +16,9 @@ main {
 
 @media only screen and (min-width: 25em) {
 
-main p {
-  max-width: 30rem;
-}
+  main p {
+    max-width: 30rem;
+  }
 
 }
 
