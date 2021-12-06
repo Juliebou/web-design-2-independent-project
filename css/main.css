@@ -54,6 +54,7 @@ main img {
   /* ------ end of styling Navigation ------- */
 
   .banner {
+    background: #ccc;
     background-image: url("../images/lots-of-apples-banner.jpg");
     background-size: cover;
     background-position: center;

@@ -6,6 +6,7 @@ h1 {
 }
 
 .banner2 {
+  background: #ccc;
   background-image: url("../images/lots-of-apples-banner.jpg");
   padding: .75rem 0;
 }
@@ -13,6 +14,7 @@ h1 {
 @media only screen and (min-width: 25em) {
 
   .apple {
+    background: #ccc;
     background-image: url("../images/lots-of-apples-banner.jpg");
     background-size: cover;
     background-position: center;
@@ -112,6 +114,7 @@ h1 {
   /* END OF APPLE CARD-Small screen */
 
   .pumpkin {
+    background: #ccc;
     background-image: url("../images/lots-of-pumpkins.jpg");
     background-size: cover;
     background-position: center;
@@ -172,6 +175,7 @@ h1 {
   /* END OF PUMPKIN CARD - small screen */
 
   .tree {
+    background: #ccc;
     background-image: url("../images/lots-of-branch.jpg");
     background-size: cover;
     background-position: center;
