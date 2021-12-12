@@ -21,7 +21,7 @@ main img {
   width: 60%;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
   nav ul {
     padding: .8rem 0 .8rem;
@@ -108,7 +108,7 @@ main img {
   }
 
   .button a {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-decoration: none;
     padding: 1.5rem 2rem;
     color: #fff;
@@ -254,7 +254,6 @@ main img {
   }
 
   .text-banner p {
-    /* font-size: 1.5rem; */
     max-width: 42rem;
   }
 
