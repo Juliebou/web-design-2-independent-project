@@ -63,12 +63,11 @@ main img {
     grid-template-rows: 1fr 10em; */
     grid-template-areas:
     "text"
-    "button"
+    "button";
     gap: 1rem;
   }
 
   .text-banner {
-    display: content;
     grid-column: 1;
     grid-row: 1;
     z-index: 1;
@@ -122,8 +121,8 @@ main img {
     color: #580F1F;
     background-color:  #fff;
     border-style: solid;
-    border-color: #580F1F
-    border-width: 5px;
+    border-color: #580F1F;
+    border-width: 6px;
   }
 
   .button a:focus {
