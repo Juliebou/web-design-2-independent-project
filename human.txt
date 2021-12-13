@@ -1,0 +1,42 @@
+
+#TEAM
+
+Designer and Developer: Julie Boucher
+Github: https://github.com/Juliebou
+Location: Ottawa, Canada
+
+-----
+
+#TECHNOLOGY
+
+atom
+git + github
+
+-----
+
+Images credit:
+
+Banner image:
+From unsplash:
+https://images.unsplash.com/photo-1634132727452-88144ea11cd6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDM0fHxvcmNoYXJkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60
+
+Hands holding pumpkin:
+from unsplash:https://unsplash.com/
+credit: Aaron burden
+
+Hands holding branches:
+from unsplash:https://unsplash.com/
+credit: Alisa Anton
+
+Hand holding an apple:
+from unsplash:https://unsplash.com/
+credit: Radu Marcusu
+
+Product page
+pumpkin card:
+from unsplash:https://unsplash.com/
+credit: Lynn Danielson
+
+Tree branches:
+from unsplash:https://unsplash.com/
+credit: Annie Spratt
