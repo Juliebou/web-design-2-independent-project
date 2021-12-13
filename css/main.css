@@ -79,7 +79,7 @@ main img {
     max-height: 700px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 10em; */
+    grid-template-rows: 1fr 10em;
     grid-template-areas:
     "text"
     "button";
@@ -186,7 +186,6 @@ main img {
   .card1 {
     grid-row: 1;
     grid-column: 1;
-    align-self: center;
     flex-grow: 1;
     align-self: stretch;
     flex-basis: 0;
@@ -195,7 +194,6 @@ main img {
   .card2 {
     grid-row: 2;
     grid-column: 1;
-    align-self: center;
     flex-grow: 1;
     align-self: stretch;
     flex-basis: 0;
@@ -204,7 +202,6 @@ main img {
   .card3 {
     grid-row: 3;
     grid-column: 1;
-    align-self: center;
     flex-grow: 1;
     align-self: stretch;
     flex-basis: 0;
