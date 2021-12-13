@@ -63,6 +63,7 @@ main img {
 
   nav a:hover {
     font-weight: bold;
+    color: #fffbf1;
     text-decoration: underline;
   }
 
@@ -289,7 +290,7 @@ main img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-"card1 card2 card3";
+      "card1 card2 card3";
     gap: 1rem;
     padding: 2rem;
   }
