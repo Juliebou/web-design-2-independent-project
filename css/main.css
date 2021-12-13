@@ -227,6 +227,12 @@ main img {
     margin-bottom: 0;
   }
 
+  .cards h2:hover {
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 0 1rem;
+}
+
   /* ------ end of styling cards ------- */
 
   .contact {
