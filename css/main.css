@@ -61,6 +61,16 @@ main img {
     text-transform: uppercase;
   }
 
+  nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  nav a:focus {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
   .logo {
     position: absolute;
     height: 2.5em;
